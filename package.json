@@ -1,6 +1,6 @@
 {
   "name": "bootify",
-  "version": "0.2.4",
+  "version": "1.0.0",
   "description": "Easy application initialization for Node.js.",
   "keywords": [
     "boot",
