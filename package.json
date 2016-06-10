@@ -1,0 +1,47 @@
+{
+  "name": "bootify",
+  "version": "0.2.4",
+  "description": "Easy application initialization for Node.js.",
+  "keywords": [
+    "boot",
+    "init",
+    "startup",
+    "express"
+  ],
+  "authors": [
+    {
+      "name": "Yuan Tao",
+      "email": "towyuan@outlook.com",
+      "url": "https://github.com/taoyuan"
+    },
+    {
+      "name": "Jared Hanson",
+      "email": "jaredhanson@gmail.com",
+      "url": "http://www.jaredhanson.net/"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/taoyuan/bootify.git"
+  },
+  "bugs": {
+    "url": "http://github.com/taoyuan/bootify/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "devDependencies": {
+    "mocha": "2.x.x",
+    "chai": "3.x.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js test/**/*.test.js"
+  }
+}
