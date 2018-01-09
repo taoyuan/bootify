@@ -1,6 +1,6 @@
 {
   "name": "bootify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy application initialization for Node.js.",
   "keywords": [
     "boot",
@@ -35,8 +35,8 @@
   ],
   "main": "./lib",
   "devDependencies": {
-    "mocha": "2.x.x",
-    "chai": "3.x.x"
+    "mocha": "4.x.x",
+    "chai": "4.x.x"
   },
   "engines": {
     "node": ">= 0.4.0"
