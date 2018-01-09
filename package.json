@@ -43,5 +43,9 @@
   },
   "scripts": {
     "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js test/**/*.test.js"
+  },
+  "dependencies": {
+    "@types/expect": "^1.20.2",
+    "debug": "^3.1.0"
   }
 }
