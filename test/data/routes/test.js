@@ -1,7 +1,7 @@
-module.exports = function() {
-  
-  this.get('/test', function() {
-    return 'GET /test';
-  });
-  
+module.exports = function () {
+
+	this.get('/test', function () {
+		return 'GET /test';
+	});
+
 }

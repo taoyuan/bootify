@@ -1,3 +1,3 @@
-module.exports = function() {
-  this.order.push('02_ok');
+module.exports = function () {
+	this.order.push('02_ok');
 };
