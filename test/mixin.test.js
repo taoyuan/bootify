@@ -45,11 +45,8 @@ describe('mixin', function() {
       
       var error;
     
-      before(function(done) {
-        app.boot(function(err) {
-          error = err;
-          return done();
-        });
+      before(function() {
+        return app.boot();
       });
     
       it('should call callback', function() {
@@ -91,11 +88,8 @@ describe('mixin', function() {
     describe('running phases', function() {
       var error;
     
-      before(function(done) {
-        app.boot(function(err) {
-          error = err;
-          return done();
-        });
+      before(function() {
+        return app.boot();
       });
     
       it('should call callback', function() {
