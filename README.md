@@ -3,7 +3,7 @@
 [![Build](https://travis-ci.org/taoyuan/bootify.png)](https://travis-ci.org/taoyuan/bootify)
 [![Coverage](https://coveralls.io/repos/taoyuan/bootify/badge.png)](https://coveralls.io/r/taoyuan/bootify)
 [![Quality](https://codeclimate.com/github/taoyuan/bootify.png)](https://codeclimate.com/github/taoyuan/bootify)
-[![Dependencies](https://david-dm.org/taoyuan/bootify.png)](https://david-dm.org/taoyuan/bootify)
+[![Dependencies](https://david-dm.org/taoyuan/bootify.png)](https://david-dm.org/taoyuan/bootify) [![Greenkeeper badge](https://badges.greenkeeper.io/taoyuan/bootify.svg)](https://greenkeeper.io/)
 
 
 Bootify is an extensible initialization layer for [Node.js](http://nodejs.org/) and browser applications
